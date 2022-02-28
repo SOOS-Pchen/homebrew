@@ -1,0 +1,9 @@
+- task: SOOS-Security-Analysis@0
+  inputs:
+    apiKey: {SOOS_API_KEY}
+    clientId: {SOOS_CLIENT_ID}
+    scanType: 'DAST'
+    project: {YOUR_PROJECT_NAME_HERE}
+    targetUri: 'https://brokencrystals.com'
+    scanMode: 'baseline'
+    apiURL: 'https://qa-api.soos.io/api/'
